@@ -14,6 +14,11 @@ Kids Code Python is a group of teachers and learners helping to teach kids pytho
 - Create (or log in to) an account on this [site](url)
 - 
 
+**If you would like to help out code python:**
+1. Create (or log in to) an account on this [site](url)
+2. Go to the `github` section
+3. Fill out the form
+4. Wait until a moderator adds you to the github team (this can take up to 3 days)
 
 # An important note
 You don't need to be an adult to teach python. You can be a kid with a passion for it. Or someone who wants to help spread knowledge. Please question yourself on two aspects when becoming a teacher: 
