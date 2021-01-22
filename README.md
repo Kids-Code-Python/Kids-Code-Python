@@ -7,7 +7,7 @@ Kids Code Python is a group of teachers and learners helping to teach kids pytho
 - Other item
 
 **If you would like to teach python:**
-- Create (or log in to) an account on this site
+- Create (or log in to) an account on this (site)[url]  
 
 
 # An important note
