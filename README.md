@@ -3,11 +3,16 @@ Kids Code Python is a group of teachers and learners helping to teach kids pytho
 
 # How can I help?
 **If you want to learn python, you can:** 
-- Do something
-- Other item
+1. Create (or log in to) an account on this (site)[url]
+2. Go to the `classes` section
+3. Find a course that matches your level (basic, intermediate, advanced, or a class on a specific subject in python)
+4. If there is a test required, take it
+5. Start learning
 
 **If you would like to teach python:**
+1. Look at (exampleClass.md)[exampleClass.md] to see how a class should go.
 - Create (or log in to) an account on this (site)[url]  
+- 
 
 
 # An important note
