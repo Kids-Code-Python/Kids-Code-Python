@@ -1,8 +1,10 @@
 import templates.user
 from app import db
+print('tests.py: Succesfully imported.\ntests.py: Running...')
 
 
-print('Updating users...')
+print('tests.py: Updating users...')
 templates.user.update(db)
-print('Updated!')
+print('tests.py: Updated!')
+
 
