@@ -14,3 +14,5 @@ def update(db):
 				print('user.py: ' + user[0] + ' not found:\nCreating file...')
 				user_file = open('templates/users/' + user[0] + '.json', 'w')
 
+
+
