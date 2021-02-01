@@ -1,6 +1,10 @@
-def real_db(db):
-	new_db = {}
-	for k, v in db.items():
-		if k.isupper() == False:
-			new_db[k] = v
-	return new_db
+import requests
+import os
+
+API_KEY = os.getenv('API_KEY')
+
+class Db:
+	def view_users(self):
+		return requests.get('https://Kids-Code-Python-API.isaiah08.repl.co/' + API_KEY + '/users/view')
+	def add_user(self, name, occupation):
+		return requests.get('https://Kids-Code-Python-API.isaiah08.repl.co/' + API_KEY + 'users/add?name=' + name + '&occupation='+ occupation)

@@ -1,17 +1,17 @@
 print('app.py: Importing packages...')
 import os
 from flask import *
-from templates import user_commands
-from db import real_db
+from templates import user
+import db as database
 os.system('clear')
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'fjFsdfja2$ffa'
-db = app.config
+db = database.Db()
+
 
 # Runs BEFORE any request is completed
 @app.before_request
 def before_request():
-	session['login'] = ['isaiah08', True]
 
 	# If the user is not logged in and he's not going to the login page, redirect him to the login page.
 	if session.get('login')[1] != True and request.path != '/login' or '/login?redirect=/' in request.path:
