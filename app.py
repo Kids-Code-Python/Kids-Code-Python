@@ -1,14 +1,12 @@
 print('app.py: Importing packages...')
 import os
 from flask import *
-import templates.user_commands
+from templates import user_commands
+from db import real_db
 os.system('clear')
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'fjFsdfja2$ffa'
 db = app.config
-db['isaiah08', 'user'] = {
-	'ocupation': ['teacher', 'coder'], 
-	'classes': ['How to take over the world with python', 'Creating a blog with Flask']}
 
 # Runs BEFORE any request is completed
 @app.before_request

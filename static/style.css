@@ -4,6 +4,10 @@
   position: relative; /* If you want text inside of it */
 }
 
+h1.header {
+	color: #7ec8e3
+}
+
 .text {
   position: absolute;
   top: 0;
@@ -51,11 +55,11 @@
 
 /* Their stuff: */
 :root {
-	--background: #4e27fd;
-	--background-form: #235023;
-	--background-button: #262;
-	--background-alt: #457245;
-	--background-alt-alt: #346534;
+	--background: #0000ff;
+	--background-form: #0000ff;
+	--background-button: #0000ff;
+	--background-alt: #0000ff;
+	--background-alt-alt: #0000ff;
 	--text: #bcb;
 	--text-bright: #ded;
 	--tetxt-form: #ccc;
@@ -90,7 +94,7 @@ body {
 h1, h2, h3, h5, h6 {
 	margin: 0;
 	margin-bottom: 10px;
-	color: var(--text-bright)
+	color: #ff9010
 }
 
 h1 { font-size: 2em; }
