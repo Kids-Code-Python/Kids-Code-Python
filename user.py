@@ -17,7 +17,6 @@ class User:
 		'lessons': lessons})
 	def create_project(self, project_name, description):
 		pass
-		
 def logged_in(session):
 	try:
 		return session.get('login')[1] == True
