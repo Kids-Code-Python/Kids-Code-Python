@@ -1,7 +1,7 @@
 import requests
 import os
 
-API_KEY = os.getenv('API_KEY')
+API_KEY = str(os.getenv('API_KEY'))
 
 class Db:
 	def view_users(self):

@@ -1,0 +1,3 @@
+class SentryError(Exception):
+	pass
+

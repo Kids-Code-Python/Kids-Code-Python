@@ -1,3 +1,5 @@
+from python.errors import SentryError
+
 try:
 	import sentry_sdk
 	from sentry_sdk.integrations.flask import FlaskIntegration
@@ -6,6 +8,5 @@ try:
 		integrations=[FlaskIntegration()],
 		traces_sample_rate=1.0)
 	x = 0/0
-	print('Sentry succesfully configured!')
 except:
-	raise SentryError
+	raise SentryError('Sentry failed to load.')

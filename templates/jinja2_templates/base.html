@@ -14,11 +14,17 @@
 	<div class="navbar">	
 		<a href="/" class="{% block active_home %}{% endblock %}">Home</a>
 
-		<a href="/post" class="{% block active_post %}}{% endblock %}">Post</a>
+		<a href="/login" class="{% block active_login %}{% endblock %}">Login</a>
 
-		<a href="/view-posts" class="{% block active_viewposts %}}{% endblock %}">View Posts</a>
+
+		<a href="/create-account" class="{% block active_createaccount %}{% endblock %}">Create an account</a>
+		
 	</div>
 </div>
+
+<br><br>
+{% block body %}
+{% endblock %}
 
 </body>
 </html>

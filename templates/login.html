@@ -1,5 +1,6 @@
-{% extends '/templates/jinja2_templates/base.html' %}
+{% extends 'jinja2_templates/base.html' %}
+{% import 'bootstrap/wtf.html' as wtf %}
 
-{% block content %}
+{% block body %}
 {{ wtf.quick_form(form) }}
 {% endblock %}
