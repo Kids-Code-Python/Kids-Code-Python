@@ -6,12 +6,12 @@ authors = ["repl.it user <replituser@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+flask-wtf = "^0.14.3"
+markdown = "^3.3.3"
+sentry-sdk = "^0.20.3"
+wtforms = "^2.3.3"
 flask = "^1.1.2"
 flask-bootstrap = "^3.3.7"
-flask-wtf = "^0.14.3"
-wtforms = "^2.3.3"
-sentry-sdk = "^0.19.5"
-markdown = "^3.3.3"
 
 [tool.poetry.dev-dependencies]
 

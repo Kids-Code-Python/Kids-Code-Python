@@ -1,10 +1,12 @@
-import requests
-import os
+from requests import get
+from python.config import Config
 
-API_KEY = str(os.getenv('API_KEY'))
 
 class Db:
-	def view_users(self):
-		return requests.get('https://Kids-Code-Python-API.isaiah08.repl.co/' + API_KEY + '/users/view')
-	def add_user(self, name, occupation):
-		return requests.get('https://Kids-Code-Python-API.isaiah08.repl.co/' + API_KEY + 'users/add?name=' + name + '&occupation='+ occupation)
+	def __init__(self):
+		self.app = Config.app
+		self.log = Config.log
+		self.key = Config.db_key
+	class session:
+		def start():
+			get('https://Kids-Code-Python-DB-API.isaiah08.repl.co/')
